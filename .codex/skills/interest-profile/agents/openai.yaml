@@ -1,0 +1,6 @@
+interface:
+  display_name: "Interest Profile"
+  short_description: "Codex conversationsから興味プロファイルを更新"
+  default_prompt: "Use $interest-profile to sync my interest profile from recent Codex conversations."
+policy:
+  allow_implicit_invocation: true
