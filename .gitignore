@@ -5,3 +5,8 @@ data/interests/
 # Python
 __pycache__/
 *.pyc
+
+# OMC（oh-my-claudecode）ローカル状態。スキルだけは共有可能にする
+.omc/*
+!.omc/skills/
+!.omc/skills/**
